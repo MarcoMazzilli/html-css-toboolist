@@ -40,6 +40,57 @@ body{
 /* End Style Check:"True-False" */
 
 
+/* Start Style Category Button  */
+.category {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.editorial {
+  background-color: rgb(73, 166, 225);
+}
+.editorial::before {
+  content: "Editorial";
+}
+
+.goals {
+  background-color: rgb(150, 99, 220);
+}
+.goals::before {
+  content: "Q1 Goals";
+}
+
+.recruiting {
+  background-color: rgb(80, 183, 159);
+}
+.recruiting::before {
+content: "Recruiting";
+}
+
+.mobile{
+  background-color: rgb(243, 148, 61);
+}
+.mobile::before {
+  content: "Mobile";
+}
+
+.website {
+  background-color:rgb(216, 85, 148) ;
+}
+.website::before{
+  content: "Website";
+}
+
+.sales {
+  background-color: rgb(168, 194, 59); 
+}
+.sales::before {
+  content: "Sales";
+}
+/* End Style Category Button */ 
+
 
 /* Start header style */
 
@@ -114,6 +165,9 @@ nav div {
   margin: 30px 50px;
 }
 
+article {
+  margin: 15px 0px;
+}
 
 .row p {
   display: inline;

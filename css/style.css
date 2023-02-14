@@ -7,6 +7,7 @@
 body{
   background-color: rgb(246, 247, 250);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
 
 
@@ -14,8 +15,8 @@ body{
 .check {
   display: inline-block;
   border: 1px solid black;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 100px;
   text-align: center;
   line-height: 20px;
@@ -29,6 +30,7 @@ body{
 
 .true::after {
   content: "\2713";
+  font-size: 1.2rem;
 }
 
 .false {
@@ -38,6 +40,7 @@ body{
 
 .false::after {
   content: "\2715";
+  font-size: 1.2rem;
 }
 /* End Style Check:"True-False" */
 

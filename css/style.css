@@ -8,6 +8,38 @@ body{
   background-color: rgb(246, 247, 250);
   font-family: Arial, Helvetica, sans-serif;
 }
+/*Start Style Check:"True-False" */
+.check {
+  display: inline-block;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.true{
+  color: green;
+  border-color: green;
+}
+.true::after {
+  content: "\2713";
+  font-weight: 800;
+}
+
+.false {
+  color: red;
+  border-color: red;
+}
+.false::after {
+  content: "\2715";
+  font-weight: 800;
+}
+/* End Style Check:"True-False" */
+
+
 
 /* Start header style */
 
@@ -45,6 +77,7 @@ margin: 50px auto;
   background-color: white;
   border-radius: 10px;
 }
+
 /* Start navbar */
 nav {
   border-bottom: 5px solid rgb(246, 247, 250);
@@ -75,6 +108,16 @@ nav div {
 }
 /* End navbar */
 
+/* Start Main Content */
+
+.content {
+  margin: 30px 50px;
+}
+
+
+.row p {
+  display: inline;
+}
 
 
 /* End main style */

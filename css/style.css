@@ -2,8 +2,38 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(246, 247, 250);
   font-family: Arial, Helvetica, sans-serif;
 }
-body{
-  background-color: aquamarine;
+
+/* Start header style */
+
+header .container {
+  background-color: white;
+  height: 75px;
 }
+
+header .container a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+}
+
+header .container a img {
+  width: ;
+  line-height: 75px;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+
+header .container h1 {
+  display: inline;
+  line-height: 75px;
+  vertical-align: middle;
+}
+
+/* End header style */

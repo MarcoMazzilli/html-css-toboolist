@@ -46,6 +46,7 @@ body{
   border-radius: 15px;
   padding: 5px 10px;
   color: white;
+  margin-left: 10px;
 }
 
 .editorial {
@@ -169,8 +170,15 @@ article {
   margin: 15px 0px;
 }
 
+.row {
+  margin-bottom: 30px;
+}
+
 .row p {
   display: inline;
+}
+.row h2::before {
+  content: "\25BE";
 }
 
 

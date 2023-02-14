@@ -11,29 +11,70 @@ body{
 
 /* Start header style */
 
-header .container {
+.header {
   background-color: white;
   height: 75px;
 }
 
-header .container a {
+.header a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 800;
   color: black;
 }
 
-header .container a img {
-  width: ;
+.header a img {
   line-height: 75px;
   vertical-align: middle;
   padding-left: 20px;
 }
 
-header .container h1 {
+.header h1 {
   display: inline;
   line-height: 75px;
   vertical-align: middle;
 }
 
 /* End header style */
+/* Start main style */
+
+main {
+width: 70%;
+height: 1000px;
+margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+/* Start navbar */
+nav {
+  border-bottom: 5px solid rgb(246, 247, 250);
+}
+
+nav div {
+  display: inline-block;
+}
+
+.add {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.add.task {
+  background-color: rgb(56, 158, 233) ;
+  color: white;
+  border: 2px solid rgb(56, 158, 233);
+  margin-left: 50px;
+}
+
+.add.section {
+  background-color: white;
+  color: rgb(199, 202, 207);
+  border: 2px solid rgb(199, 202, 207);
+}
+/* End navbar */
+
+
+
+/* End main style */

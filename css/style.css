@@ -28,6 +28,12 @@ body{
   border-color: green;
 }
 
+.true:hover {
+  background-color: rgba(0, 255, 0,0.5);
+  color: white;
+  border-color: white;
+}
+
 .true::after {
   content: "\2713";
   font-size: 1.2rem;
@@ -36,6 +42,11 @@ body{
 .false {
   color: red;
   border-color: red;
+}
+.false:hover {
+  background-color: rgba(255, 0, 0,0.5);
+  color: white;
+  border-color: white;
 }
 
 .false::after {

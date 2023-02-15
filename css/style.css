@@ -116,7 +116,6 @@ content: "Recruiting";
 
 
 /* Start header style */
-
 .header {
   background-color: white;
   height: 75px;
@@ -165,7 +164,7 @@ nav div {
 }
 
 .add {
-  padding: 10px 20px;
+  padding: 15px 35px;
   border-radius: 5px;
   font-weight: bold;
   margin: 20px 0px;
@@ -186,7 +185,7 @@ nav div {
 .add:hover {
   cursor: pointer;
   text-decoration: underline;
-  padding: 10px 40px;
+  padding: 15px 45px;
 }
 /* End navbar */
 
